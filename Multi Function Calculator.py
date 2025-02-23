@@ -65,6 +65,20 @@ def cot(x):
     return 1 / tan(x)
 
 def calculator():
+    print("Operations:")
+    print("1: Addition")
+    print("2: Subtraction")
+    print("3: Multiplication")
+    print("4: Division")
+    print("5: Power")
+    print("6: Square Root")
+    print("7: Logarithm")
+    print("8: Sine")
+    print("9: Cosine")
+    print("10: Tangent")
+    print("11: Cosecant")
+    print("12: Secant")
+    print("13: Cotangent")
     
     choice = input("Choose an operation (1-13): ")
     
